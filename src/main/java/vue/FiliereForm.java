@@ -118,10 +118,13 @@ public class FiliereForm extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+        //Récupération des variables saisi par l'utilisateur
         int idfiliere = Integer.parseInt(jTextField1.getText());
         String libelle = jTextField2.getText();
         String description = jTextField3.getText();
         
+        //Affichage des variables saisis par l'utilisateur
         jTextArea1.setText("votre id filière est: "+idfiliere+"\nvotre libelle est: "+libelle+"\nvotre description est: "+description);
     }//GEN-LAST:event_jButton1ActionPerformed
 

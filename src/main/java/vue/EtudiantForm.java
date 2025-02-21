@@ -116,12 +116,15 @@ public class EtudiantForm extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+        //Récupération des variables saisi par l'utilisateur
         String Matricule = jTextField1.getText();
         String Prenom = jTextField2.getText();
         String Nom = jTextField3.getText();
         int Age = Integer.parseInt(jTextField4.getText());
         String Filiere = jTextField5.getText();
         
+        //Affichage des variables saisis par l'utilisateur
         System.out.println("votre Matricule est: "+Matricule);
         System.out.println("votre Prenom est: "+Prenom);
         System.out.println("votre Nom est: "+Nom);
